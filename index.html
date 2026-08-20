@@ -8,36 +8,76 @@
 </head>
 
 <body>
-    <h1>Valorant Hub</h1>
 
-    <p>O Valorant Hub apresenta informações sobre agentes, mapas e armas do jogo Valorant.</p>
-   
-    <ul>
-        <li>Agentes</li>
-        <li>Mapas</li>
-        <li>Armas</li>
-    </ul>
+    <header>
+        <h1>Valorant Hub</h1>
+    </header>
 
-    <table>
-        <tr>
-            <th>Agente</th>
-            <th>Função</th>
-        </tr>
-        <tr>
-            <td>Jett</td>
-            <td>Duelista</td>
-        </tr>
-        <tr>
-            <td>Sage</td>
-            <td>Sentinela</td>
-        </tr>
-    </table>
+    <main>
 
-    <a href="https://playvalorant.com/pt-br/" target="_blank" rel="noopener noreferrer">
-        Site oficial do Valorant
-    </a>
-    
-    <img src="assets/images/images.jpg" alt="Imagem relacionada ao jogo Valorant">
+        <section>
+            <h2>Sobre o Valorant Hub</h2>
+
+            <p>O Valorant Hub apresenta informações sobre agentes, mapas e armas do jogo Valorant.</p>
+
+            <ul>
+                <li>Agentes</li>
+                <li>Mapas</li>
+                <li>Armas</li>
+            </ul>
+
+            <a href="https://playvalorant.com/pt-br/" target="_blank" rel="noopener noreferrer">
+                Site oficial do Valorant
+            </a>
+
+            <img src="assets/images/images.jpg" alt="Imagem relacionada ao jogo Valorant">
+        </section>
+
+        <section>
+            <h2>Agentes</h2>
+
+            <table>
+                <tr>
+                    <th>Agente</th>
+                    <th>Função</th>
+                </tr>
+                <tr>
+                    <td>Jett</td>
+                    <td>Duelista</td>
+                </tr>
+                <tr>
+                    <td>Sage</td>
+                    <td>Sentinela</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Avalie um agente</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Informações do Avaliador</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                <label for="agente">Agente:</label>
+                <input type="text" id="agente" name="agente">
+
+                <label for="nota">Nota de 1 a 10:</label>
+                <input type="number" id="nota" name="nota" min="1" max="10">
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Valorant Hub</p>
+    </footer>
 
 </body>
 </html>
